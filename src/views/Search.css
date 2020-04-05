@@ -1,0 +1,40 @@
+/* 검색 */
+.search { background-color:#cdcdcd; float:right; transform:translateX(0); padding:10px 0; margin-top:20px; width:230px; }
+
+/* 검색창 및 검색 버튼 */
+.search div        { height:24px; margin:0 auto; width:215px; }
+.search div *      { border:0; display:inline-block; padding:0; vertical-align:middle; }
+.search div input  { height:100%; width:170px; }
+.search div button { background-color:#c4d4c4; color:#fff; font-size:14px; height:100%; padding:0; text-align:center; width:40px; }
+
+/* 콘텐츠 타입 체크박스 */
+.search ul          { margin:0 auto;  width:215px; }
+.search ul li       { margin-top:10px; }
+.search ul li *     { display:inline-block; vertical-align:middle; }
+.search ul li input { border:1px solid #c4c4c4; height:20px; width:20px; }
+.search ul li span  { color:#fff; font-size:24px; margin-left:4px; }
+
+@media ( max-width:1440px ) {
+     /* 검색 */
+    .search { height:calc(100vh - 5.556vw); margin-top:0px; position:fixed; right:0; top:5.446vw; transition:transform 0.5s; transform:translateX(120%); width:300px; }
+    .search.show { transform:translateX(0); }
+
+    /* 검색창 및 검색 버튼 */
+    .search div        { height:40px; width:265px; }
+    .search div input  { width:190px; }
+    .search div button { font-size:28px; width:70px; }
+
+    /* 콘텐츠 타입 체크박스 */
+    .search ul          { width:265px; }
+    .search ul li       { margin-top:10px; }
+    .search ul li input { /* height:40px; width:40px; */ }
+    .search ul li span  { font-size:40px; margin-left:4px; }
+}
+
+@media ( max-width:1080px ) {
+     /* 검색 */
+    .search { height:calc(100vh - 14.815vw); margin-top:0px; position:fixed; right:0; top:14.500vw; transition:transform 1s; transform:translateX(120%); width:300px; }
+
+    /* 콘텐츠 타입 체크박스 */
+    .search ul li span  { font-size:30px; margin-left:4px; }
+}

@@ -1,0 +1,5 @@
+.contents-wrap { margin:0 auto; width:1440px; }
+
+@media ( max-width:1440px ) {
+    .contents-wrap { width:100%; }
+}  

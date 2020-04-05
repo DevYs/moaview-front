@@ -1,0 +1,25 @@
+/* 콘텐츠 목록 */
+.cardview-list { float:left; margin-top:20px; width:1190px; }
+
+/* 다음 페이지 버튼 */
+.cardview-list .btn-next                  { clear:both; padding:30px 0;  text-align:center; width:100%; }
+.cardview-list .btn-next button           { background-color:#fff; border:0; display:block; height:40px; margin:0 auto; padding:0; width:40px; }
+.cardview-list .btn-next button svg       { fill:#c4c4c4; height:100%; width:100%; }
+.cardview-list .btn-next button:hover svg { fill:#b4b4b4; }
+
+@media ( max-width:1440px ) {
+    .cardview-list { float:none; margin-top:1.389vw; width:100%; }
+
+    /* 다음 페이지 버튼 */
+    .cardview-list .btn-next                  { padding:2.083vw 0; }
+    .cardview-list .btn-next button           { height:4.167vw; width:4.167vw; }
+}
+
+@media ( max-width:1080px ) {
+    /* 콘텐츠 목록 */
+    .cardview-list { margin-top:1.852vw; }
+
+    /* 다음 페이지 버튼 */
+    .cardview-list .btn-next                  { clear:both; padding:2.778vw 0;  text-align:center; width:100%; }
+    .cardview-list .btn-next button           { border:0; display:block; height:9.259vw; margin:0 auto; padding:0; width:9.259vw; }
+}

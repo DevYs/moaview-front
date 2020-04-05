@@ -1,0 +1,36 @@
+/* 헤더 */
+header { background-color:#cdcdcd; position:relative; }
+
+/* 헤더 사이트명 */
+header h1 { color:#fff; display:inline-block; font-size:20px; line-height:50px; margin-left:30px; vertical-align:top; }
+
+/* 헤더 메뉴 버튼 */
+header .btn-menu                 { position:absolute; right:10px; top:50%; transform:translateY(-50%); }
+header .btn-menu a               { display:none; height:36px; text-align:center; vertical-align:middle; width:36px; }
+header .btn-menu a svg           { display:none; fill:#fff; height:100%; width:100%; }
+header .btn-menu a.hide svg.hide { display:inline-block; }
+header .btn-menu a.show svg.show { display:inline-block; }
+
+/* 
+    헤더 1440px 이하 스타일
+ */
+@media (max-width:1440px) {
+    /* 헤더 사이트명 */
+    header h1 { font-size:2.083vw; line-height:5.556vw; margin-left:2.083vw; }
+
+    /* 헤더 메뉴 버튼 */
+    header .btn-menu                 { right:1.389vw; }
+    header .btn-menu a               { display:inline-block; width:3.472vw; height:3.472vw; }
+}
+
+/* 
+    헤더 1080px 이하 스타일
+ */
+@media (max-width:1080px) {
+    /* 헤더 사이트명 */
+    header h1 { font-size:5.556vw; line-height:14.815vw; margin-left:3.704vw; }
+
+    /* 헤더 메뉴 버튼 */
+    header .btn-menu                 { right:3.704vw; }
+    header .btn-menu a               { display:inline-block; height:9.259vw; width:9.259vw; }
+}

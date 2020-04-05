@@ -1,0 +1,18 @@
+/* 콘텐츠 타입 체크박스 */
+.search ul          { margin:0 auto;  width:215px; }
+.search ul li       { margin-top:10px; }
+.search ul li *     { display:inline-block; vertical-align:middle; }
+.search ul li input { border:1px solid #c4c4c4; height:20px; width:20px; }
+.search ul li span  { color:#fff; font-size:24px; margin-left:4px; }
+
+@media ( max-width:1440px ) {
+    /* 콘텐츠 타입 체크박스 */
+    .search ul          { width:265px; }
+    .search ul li       { margin-top:10px; }
+    .search ul li input { /* height:40px; width:40px; */ }
+    .search ul li span  { font-size:40px; margin-left:4px; }
+}
+
+@media ( max-width:1080px ) {
+     
+}
